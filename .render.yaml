@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: shl-agent
+    env: docker
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
